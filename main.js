@@ -102,3 +102,13 @@
 //     }
 
 // }
+
+
+var userNum = Number(prompt("enter number"));
+
+for(var i=0; i<userNum; i++){
+
+    if(userNum%i == 0){
+        console.log(i)
+    }
+}
