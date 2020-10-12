@@ -78,7 +78,7 @@
 // else {
 //     console.log("error")
 // }
- 
+
 // momxmareblis mier sheyvanil ciframde kenti cifrebi
 
 // var userNum = Number(prompt("enter number"));
@@ -87,4 +87,18 @@
 //     if(i%2 !== 0){
 //         console.log(i);
 //     }
+// }
+
+
+// momxmarelis mier shemoyvanili  ricxvebis raodenoba 5 is jeradi random 
+
+
+// var userNum = Number(prompt("enter number"));
+
+// for (var i = 0; i < userNum; i++) {
+//     var rand = Math.round(Math.random() * 100)
+//     if (rand % 5 == 0) {
+//         console.log(rand)
+//     }
+
 // }
