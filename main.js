@@ -78,12 +78,13 @@
 // else {
 //     console.log("error")
 // }
+ 
+// momxmareblis mier sheyvanil ciframde kenti cifrebi
 
+// var userNum = Number(prompt("enter number"));
 
-var userNum = Number(prompt("enter number"));
-
-for(i=0 ; i<userNum;i++){
-    if(i%2 !== 0){
-        console.log(i);
-    }
-}
+// for(i=0 ; i<userNum;i++){
+//     if(i%2 !== 0){
+//         console.log(i);
+//     }
+// }
