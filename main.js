@@ -115,19 +115,29 @@
 
 
 
-var userNum = Number(prompt("enter number 500 -1000"));
+// var userNum = Number(prompt("enter number 500 -1000"));
 
 
 
-   if(userNum>500 &&userNum<1000){
-for(var i=0;i<100;i++){
-    var rand = Math.round(Math.random()*100)
-    if(userNum%rand == 0){
-        console.log(rand)
-    }
-}
+// if (userNum > 500 && userNum < 1000) {
+//     for (var i = 0; i < 100; i++) {
+//         var rand = Math.round(Math.random() * 100)
+//         if (userNum % rand == 0) {
+//             console.log(rand)
+//         }
+//     }
+// }
+// else {
+//     console.log("error");
+// }
 
-   }
-else{
-    console.log("error");
-}
+
+
+// var userNum = Number(prompt("enter number"));
+// var counter = 0;
+// for (var i = 0; i < userNum; i++) {
+//     if (userNum % i == 0) {
+//         counter++;
+//     }
+// }
+// console.log(counter);
