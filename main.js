@@ -104,11 +104,30 @@
 // }
 
 
-var userNum = Number(prompt("enter number"));
+// var userNum = Number(prompt("enter number"));
 
-for(var i=0; i<userNum; i++){
+// for (var i = 0; i < userNum; i++) {
 
-    if(userNum%i == 0){
-        console.log(i)
+//     if (userNum % i == 0) {
+//         console.log(i)
+//     }
+// }
+
+
+
+var userNum = Number(prompt("enter number 500 -1000"));
+
+
+
+   if(userNum>500 &&userNum<1000){
+for(var i=0;i<100;i++){
+    var rand = Math.round(Math.random()*100)
+    if(userNum%rand == 0){
+        console.log(rand)
     }
+}
+
+   }
+else{
+    console.log("error");
 }
