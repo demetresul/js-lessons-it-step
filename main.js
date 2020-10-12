@@ -135,7 +135,7 @@
 
 // var userNum = Number(prompt("enter number"));
 // var counter = 0;
-// for (var i = 0; i < userNum; i++) {
+// for (var i = 1; i < userNum; i++) {
 //     if (userNum % i == 0) {
 //         counter++;
 //     }
