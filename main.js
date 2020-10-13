@@ -143,3 +143,23 @@
 //     }
 // }
 // console.log(counter);
+
+
+//>>>>>>> momxmareblis mier sheyvanili cifri martivia shedgenili tu arc erti da arc meore
+
+var userNum = Number(prompt("enter number"));
+var counter = 0;
+for (var i = 1; i <= userNum; i++) {
+    if (userNum % i == 0) {
+        counter++;
+    }
+}
+if (counter == 2) {
+    console.log("ricxvi martivia")
+}
+else if (counter > 2) {
+    console.log("ricxvi shedgenilia")
+}
+else {
+    console.log("ricxvi arc shedgenilia da arc martivi")
+}
