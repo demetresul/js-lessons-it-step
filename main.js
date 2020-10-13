@@ -104,6 +104,8 @@
 // }
 
 
+// tu sheyvanili cifri iyofa i ze daibechdos consolshi
+
 // var userNum = Number(prompt("enter number"));
 
 // for (var i = 0; i < userNum; i++) {
