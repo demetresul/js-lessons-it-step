@@ -179,3 +179,20 @@
 //         console.log(firstArray[i]);
 //     }
 // }
+
+// momxmareblis mier shemoyvanili cifrebi
+
+// var userNum = Number(prompt("enter number of index"));
+// var firstArray = new Array();
+// for (var i = 0; i < userNum; i++) {
+//     var randNum = Math.round(Math.random() * 100);
+//     firstArray.push(randNum)
+// }
+// for (var i = 0; i < firstArray.length; i++) {
+//     if (firstArray[i] % 5 == 0) {
+//         var secondArray = new Array();
+//         for (var j = 0; j < firstArray.length; j++) {
+//             secondArray.push(firstArray[i])
+//         } console.log(secondArray[i])
+//     }
+// }
