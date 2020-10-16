@@ -197,3 +197,40 @@
 // for (var i = 0; i < filterdarray.length; i++) {
 //     console.log(filterdarray[i])
 // }
+
+
+// arayshi minimaluri da maximaluri cifrebis dabechdva
+
+
+// var raodenoba = Number(prompt("enter number"));
+// var multiplay = Number(prompt("enter multiplay"));
+// var aray = new Array();
+
+// for (var i = 0; i < raodenoba; i++) {
+//     var randNum = Math.round(Math.random() * 100)
+//     if (randNum % multiplay == 0) {
+//         aray.push(randNum)
+//     }
+// }
+// for (var i = 0; i < aray.length; i++) {
+// }
+
+// var minNum = aray[0];
+
+// for (var i = 0; i < aray.length; i++) {
+//     if (minNum > aray[i]) {
+//         minNum = aray[i]
+//     }
+// }
+// var maxNum = aray[0];
+// for (var i = 0; i < aray.length; i++) {
+//     if (maxNum < aray[i]) {
+//         maxNum = aray[i]
+//     }
+// }
+
+// console.log(aray)
+// console.log(maxNum)
+// console.log(minNum)
+
+
