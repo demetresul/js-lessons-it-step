@@ -180,7 +180,7 @@
 //     }
 // }
 
-// momxmareblis mier shemoyvanili cifrebi
+//>>>>> momxmareblis mier shemoyvanili cifrebidan 5 jeradi random ricxvebis dabechdva
 
 // var userNum = Number(prompt("enter number of index"));
 // var firstArray = new Array();
@@ -188,11 +188,12 @@
 //     var randNum = Math.round(Math.random() * 100);
 //     firstArray.push(randNum)
 // }
+// var filterdarray = new Array();
 // for (var i = 0; i < firstArray.length; i++) {
 //     if (firstArray[i] % 5 == 0) {
-//         var secondArray = new Array();
-//         for (var j = 0; j < firstArray.length; j++) {
-//             secondArray.push(firstArray[i])
-//         } console.log(secondArray[i])
+//         filterdarray.push(firstArray[i]);
 //     }
+// }
+// for (var i = 0; i < filterdarray.length; i++) {
+//     console.log(filterdarray[i])
 // }
