@@ -163,3 +163,19 @@
 // else {
 //     console.log("ricxvi arc shedgenilia da arc martivi")
 // }
+
+
+//
+
+//>>>>>>>>>>>>>> arrays 
+
+// var firstArray = new Array();
+// for(var i=0;i<30;i++){
+// var randNum = Math.round(Math.random()*100);
+// firstArray.push(randNum);
+// }
+// for(var i=0;i<firstArray.length;i++){
+//     if(firstArray[i]%3==0){
+//         console.log(firstArray[i]);
+//     }
+// }
