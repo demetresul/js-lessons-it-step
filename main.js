@@ -166,6 +166,7 @@
 
 
 
+
 //>>>>>>>>>>>>>>> 10/15/2020
 
 
@@ -201,6 +202,102 @@
 
 
 
+//
+
+//>>>>>>>>>>>>>> arrays 
+
+// var firstArray = new Array();
+// for(var i=0;i<30;i++){
+// var randNum = Math.round(Math.random()*100);
+// firstArray.push(randNum);
+// }
+// for(var i=0;i<firstArray.length;i++){
+//     if(firstArray[i]%3==0){
+//         console.log(firstArray[i]);
+//     }
+// }
+
+//>>>>> momxmareblis mier shemoyvanili cifrebidan 5 jeradi random ricxvebis dabechdva
+
+// var userNum = Number(prompt("enter number of index"));
+// var firstArray = new Array();
+// for (var i = 0; i < userNum; i++) {
+//     var randNum = Math.round(Math.random() * 100);
+//     firstArray.push(randNum)
+// }
+// var filterdarray = new Array();
+// for (var i = 0; i < firstArray.length; i++) {
+//     if (firstArray[i] % 5 == 0) {
+//         filterdarray.push(firstArray[i]);
+//     }
+// }
+// for (var i = 0; i < filterdarray.length; i++) {
+//     console.log(filterdarray[i])
+// }
 
 
+// arayshi minimaluri da maximaluri cifrebis dabechdva
+
+
+// var raodenoba = Number(prompt("enter number"));
+// var multiplay = Number(prompt("enter multiplay"));
+// var aray = new Array();
+
+// for (var i = 0; i < raodenoba; i++) {
+//     var randNum = Math.round(Math.random() * 100)
+//     if (randNum % multiplay == 0) {
+//         aray.push(randNum)
+//     }
+// }
+// for (var i = 0; i < aray.length; i++) {
+// }
+
+// var minNum = aray[0];
+
+// for (var i = 0; i < aray.length; i++) {
+//     if (minNum > aray[i]) {
+//         minNum = aray[i]
+//     }
+// }
+// var maxNum = aray[0];
+// for (var i = 0; i < aray.length; i++) {
+//     if (maxNum < aray[i]) {
+//         maxNum = aray[i]
+
+//     }
+// }
+
+
+
+
+
+
+// console.log(aray)
+// console.log(maxNum)
+// console.log(minNum)
+
+// // sashualo aritmetikuli
+
+// var sum = 0;
+// for(var i=0;i<aray.length;i++){
+//     sum+=aray[i];
+// }
+
+// console.log("sashualo aritmetikuli aris :" + sum/aray.length)
+
+// arays sortireba
+
+// var mysortedaray = [23,12,11,43,45,33,23,44,21,14];
+
+// for(var i=0;i<mysortedaray.length;i++){
+// for(var j=0;j<mysortedaray.length;j++){
+//     if(mysortedaray[i]>mysortedaray[j]){
+//         var tmp = mysortedaray[i];
+//         mysortedaray[i]=mysortedaray[j];
+//         mysortedaray[j]=tmp;
+
+//     }
+// }
+// }
+// console.log(mysortedaray)
 
