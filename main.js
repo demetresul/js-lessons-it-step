@@ -163,3 +163,44 @@
 // else {
 //     console.log("ricxvi arc shedgenilia da arc martivi")
 // }
+
+
+
+//>>>>>>>>>>>>>>> 10/15/2020
+
+
+// var ricxvebi = new Array();
+
+// for(var i=0;i<20;i++){
+// var randNum = Math.round(Math.random()*100);
+// ricxvebi.push(randNum);
+// if(randNum%3==0){
+//     console.log(i);
+// }
+
+// }
+
+//>>>>>>>>>>>>>>> kenti ricxvebis luwi random ricxvebit chanacvleba
+
+// var allSpan = document.querySelectorAll("span");
+
+// for (var i = 0; i < allSpan.length; i++) {
+
+//     if (Number(allSpan[i].textContent) % 2 != 0) {
+//         while (true) {
+//             var randNum = Math.round(Math.random() * 100)
+//             if (randNum % 2 == 0) {
+//                 allSpan[i].textContent = randNum;
+//                 break;
+//             }
+//         }
+
+//     }
+// }
+
+
+
+
+
+
+
