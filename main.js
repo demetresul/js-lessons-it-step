@@ -319,17 +319,71 @@
 
 // >>>>>>>>>>>>>>>>..... elementebistvis feris shecvla
 
-function selectSomeSelector(selectorName)
-{
+// function selectSomeSelector(selectorName)
+// {
+//     return document.querySelectorAll(selectorName)
+// }
+
+// function ChangeColorSomeElements(elems)
+// {
+//     for(var i=0;i<elems.length;i++){
+//         elems[i].style.backgroundColor = "green"
+//     }
+// }
+
+// var selectors = selectSomeSelector("p")
+// ChangeColorSomeElements(selectors)
+
+
+
+
+
+// >>>>>>>>>>>>>>>tegebis shemcveli cifrebi luwebi mwvaned kentebi witlad 
+
+// function selectSomeSelector(selectorName) {
+//     return document.querySelectorAll(selectorName)
+// }
+
+// function changeColourRedorGreen(elems) {
+//     for (var i = 0; i < elems.length; i++) {
+//         var elemsInside = elems[i].textContent;
+//         if (Number(elemsInside) % 2 == 0) {
+//             elems[i].style.backgroundColor = "green"
+//         }
+//         else {
+//             elems[i].style.backgroundColor = "red";
+//         }
+//     }
+// }
+
+// var selectors = selectSomeSelector("p");
+
+// changeColourRedorGreen(selectors)
+
+function selectSomeSelector(selectorName) {
     return document.querySelectorAll(selectorName)
 }
 
-function ChangeColorSomeElements(elems)
-{
-    for(var i=0;i<elems.length;i++){
-        elems[i].style.backgroundColor = "green"
+function AddRandNum(elems) {
+    for (var i = 0; i < elems.length; i++) {
+        if (Number(elems[i].textContent) % 2 != 0) {
+            while (true) {
+                var randNum = Math.round(Math.random() * 100);
+                if (Number(randNum) % 2 == 0) {
+                    elems[i].textContent = randNum;
+                    break;
+                }
+            }
+        }
+
     }
 }
 
-var selectors = selectSomeSelector("p")
-ChangeColorSomeElements(selectors)
+
+
+
+
+
+
+var callelems = selectSomeSelector("p");
+AddRandNum(callelems)
