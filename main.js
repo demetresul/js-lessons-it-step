@@ -301,3 +301,35 @@
 // }
 // console.log(mysortedaray)
 
+
+
+// >>>>>>>>>>>>>>arrays ranges da rendom ricxvebis bechdva
+
+
+// function FullArray(sizeOfarray,arayrange) {
+//     var aray = new Array();
+//     for (var i = 0; i < sizeOfarray; i++) {
+//         var randNum = Math.round(Math.random() * arayrange);
+//         aray.push(randNum);
+//     }
+//     return aray;
+// }
+// var aray = FullArray(10,999);
+// console.log(aray)
+
+// >>>>>>>>>>>>>>>>..... elementebistvis feris shecvla
+
+function selectSomeSelector(selectorName)
+{
+    return document.querySelectorAll(selectorName)
+}
+
+function ChangeColorSomeElements(elems)
+{
+    for(var i=0;i<elems.length;i++){
+        elems[i].style.backgroundColor = "green"
+    }
+}
+
+var selectors = selectSomeSelector("p")
+ChangeColorSomeElements(selectors)
